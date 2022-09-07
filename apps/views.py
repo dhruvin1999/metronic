@@ -21,3 +21,12 @@ def overview(request):
 
 def referrals(request):
     return render(request, 'account/referrals.html')
+
+def security(request):
+    return render(request, 'account/security.html')
+
+def settings(request):
+    return render(request, 'account/settings.html')
+
+def statements(request):
+    return render(request, 'account/statements.html')
