@@ -18,3 +18,5 @@ def logs(request):
 
 def overview(request):
     return render(request, 'account/overview.html')
+
+
