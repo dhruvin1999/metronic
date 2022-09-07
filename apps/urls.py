@@ -8,5 +8,6 @@ urlpatterns = [
     path('apikeys', views.apikeys, name='api-keys'),
     path('billing', views.billing, name='billing'),
     path('logs', views.logs, name='logs'),
-    path('overview', views.overview, name='overview')
+    path('overview', views.overview, name='overview'),
+    path('referrals', views.referrals, name='referrals')
 ]
