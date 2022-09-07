@@ -18,3 +18,6 @@ def logs(request):
 
 def overview(request):
     return render(request, 'account/overview.html')
+
+def referrals(request):
+    return render(request, 'account/referrals.html')
